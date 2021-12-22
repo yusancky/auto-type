@@ -34,6 +34,16 @@ int main(){
 			if (ch == '\t') prdr(9);
 			else if (ch == ' ') prdr(32);
 			else if (isdigit(ch)) prdr((int)ch);
+			else if (ch == ')') shiftprdr(48);
+			else if (ch == '!') shiftprdr(49);
+			else if (ch == '@') shiftprdr(50);
+			else if (ch == '#') shiftprdr(51);
+			else if (ch == '$') shiftprdr(52);
+			else if (ch == '%') shiftprdr(53);
+			else if (ch == '^') shiftprdr(54);
+			else if (ch == '&') shiftprdr(55);
+			else if (ch == '*') shiftprdr(56);
+			else if (ch == '(') shiftprdr(57);
 			else if (islower(ch)) prdr((int)ch - 32);
 			else if (isupper(ch)) shiftprdr((int)tolower(ch) - 32);
 			else if (ch == '*') prdr(106);
