@@ -24,19 +24,19 @@ void shprdr(int num){
 FILE *find_file;
 char ch;
 int length;
-string str,file_name("",501);
+string str,file_name("",2001);
 
 int main(){
-    printf("Please input the path of the file(at most 500 characters) you want to type and press the [enter].\nAfter that, please wait 3 seconds, and it will start to type.\n");
+    printf("Please input the path of the file(at most 2000 characters) you want to type and press the [enter].\nAfter that, please wait 3 seconds, and it will start to type.\n");
     scanf("%501s",&file_name[0]);
     while (true){
         find_file = freopen(file_name.c_str(),"r",stdin);
         fclose(stdin);
         freopen("CON","r",stdin);
         if (find_file == NULL){
-            printf("Sorry, but I can't find the file.\nPlease input the right path(at most 500 characters).\n");
+            printf("Sorry, but I can't find the file.\nPlease input the right path(at most 2000 characters).\n");
             file_name.clear();
-            scanf("%501s",&file_name[0]);
+            scanf("%2001s",&file_name[0]);
         }
         else{
             break;
