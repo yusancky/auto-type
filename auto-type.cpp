@@ -28,7 +28,7 @@ string str,file_name("",2001);
 
 int main(){
     printf("Please input the path of the file(at most 2000 characters) you want to type and press the [enter].\nAfter that, please wait 3 seconds, and it will start to type.\n");
-    scanf("%501s",&file_name[0]);
+    scanf("%2001s",&file_name[0]);
     while (true){
         find_file = freopen(file_name.c_str(),"r",stdin);
         fclose(stdin);
