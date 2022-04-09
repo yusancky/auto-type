@@ -7,6 +7,26 @@
 #include <windows.h>
 using namespace std;
 
+FILE *find_file;
+string tmp;
+
+string get_file_name(){
+    printf("Please input the path of the file(at most 1000 characters) you want to type and press the [enter]. \nAfter that, please wait 3 seconds, and it will start to type. \n");
+    scanf("%1001s",&tmp[0]);
+    while (true){
+        find_file = freopen(tmp.c_str(),"r",stdin);
+        fclose(stdin);
+        freopen("CON","r",stdin);
+        if (find_file == NULL){
+            printf("Sorry, but I can't find the file. \nPlease input the right path(at most 1000 characters). \n");
+            tmp.clear();
+            scanf("%1001s",&tmp[0]);
+        }
+        else{
+            return tmp;
+        }
+    }
+}
 void prdr(int num){
     keybd_event(num,0,0,0);
     keybd_event(num,0,2,0);
@@ -21,29 +41,14 @@ void shprdr(int num){
     return ;
 }
 
-FILE *find_file;
 char ch;
 int length;
-string str,file_name("",2001);
+string str,file_name("",3001);
 
 int main(){
-    printf("Please input the path of the file(at most 2000 characters) you want to type and press the [enter].\nAfter that, please wait 3 seconds, and it will start to type.\n");
-    scanf("%2001s",&file_name[0]);
-    while (true){
-        find_file = freopen(file_name.c_str(),"r",stdin);
-        fclose(stdin);
-        freopen("CON","r",stdin);
-        if (find_file == NULL){
-            printf("Sorry, but I can't find the file.\nPlease input the right path(at most 2000 characters).\n");
-            file_name.clear();
-            scanf("%2001s",&file_name[0]);
-        }
-        else{
-            break;
-        }
-    }
-    freopen(file_name.c_str(),"r",stdin);
+    file_name = get_file_name();
     Sleep(3000);
+    freopen(file_name.c_str(),"r",stdin);
     while (true){
         ch = (char)getchar();
         if (ch == EOF) break;
