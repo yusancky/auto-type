@@ -1,3 +1,9 @@
+> **Note**
+> 
+> This `README.md` file has both English version and Chinese version. 
+> 
+> 这一 `README.md` 文件同时有英文版与中文版。
+
 # English
 ## Introduction
 Codes can write by characters automatically. 
