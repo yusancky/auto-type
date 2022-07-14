@@ -1,8 +1,8 @@
 > **Note**
 > 
-> This `README.md` file has both English version and Chinese version. 
+> This `README.md` file has both [English version](https://github.com/yusancky/auto-type#english) and [Chinese version](https://github.com/yusancky/auto-type#中文) . 
 > 
-> 这一 `README.md` 文件同时有英文版与中文版。
+> 这一 `README.md` 文件同时有 [英文版](https://github.com/yusancky/auto-type#english) 与 [中文版](https://github.com/yusancky/auto-type#中文) 。
 
 # English
 ## Introduction
