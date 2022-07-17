@@ -6,7 +6,7 @@ These versions with a ✔️ of are currently being supported with security upda
 
 | Version | Supported |
 | - | - |
-| v1.1.x   | ✔️ |
+| v1.1.0(in progress)   | ✔️ |
 | v1.0.x   | ❌ |
 
 ## Reporting a Vulnerability
