@@ -5,10 +5,11 @@
 These versions with a ✔️ of are currently being supported with security updates. 
 
 | Version | Supported |
-| - | - |
-| v1.1.0(in progress)   | ✔️ |
-| v1.0.x   | ❌ |
+| :-: | :-: |
+| v1.0.2 | ✔️ |
+| v1.0.1 |   |
+| v1.0.0 |   |
 
 ## Reporting a Vulnerability
 
-If you find a vulnerability, please [create a new issue](https://github.com/yusancky/auto-type/issues/new/choose) to explain it. 
+If you find a vulnerability, please [contact with **@yusancky** ](https://github.com/yusancky#-contact-details) to explain it. 
