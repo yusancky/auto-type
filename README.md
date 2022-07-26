@@ -7,7 +7,7 @@ $$
 </p>
 
 <p align="center">
-<a href="https://github.com/yusancky/auto-type#english">English Version</a> ｜ <a href="https://github.com/yusancky/auto-type#简体中文)">简体中文版</a>
+<a href="https://github.com/yusancky/auto-type#english">English</a> ｜ <a href="https://github.com/yusancky/auto-type#简体中文)">简体中文</a>
 </p>
 
 # English
