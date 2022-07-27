@@ -14,7 +14,7 @@ $$
 
 ## Introduction
 
-Auto Type provides you codes that can write by characters automatically. 
+Auto Type provides you with codes that can write by characters automatically. 
 
 ## Way to Use
 
