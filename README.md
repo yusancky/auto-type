@@ -1,11 +1,6 @@
 <p align="center">
   <font size = "60">
     Auto Type
-  </font>
-</p>
-
-<p align="center">
-  <font size = "28">
     <a href="https://www.codefactor.io/repository/github/yusancky/auto-type/overview/main">
       <img src="https://www.codefactor.io/repository/github/yusancky/auto-type/badge/main" alt="CodeFactor" />
     </a>
@@ -13,7 +8,7 @@
 </p>
 
 <p align="center">
-  <font size = "28">
+  <font size = "16">
     <a href="https://yusancky.github.io/auto-type#english">English</a> ｜ <a href="https://yusancky.github.io/auto-type#简体中文">简体中文</a> ｜ <a href="https://yusancky.github.io/auto-type#繁體中文">繁體中文</a>
   </font>
 </p>
